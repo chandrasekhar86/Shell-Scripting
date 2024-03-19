@@ -21,10 +21,12 @@
 # Most commonly used Shell is "Bash Shell"
 
 # What is SheBang in Shell Scripting
---> SheBang is used to specify which shell should be used to process our script
+--> SheBang is used to specify which shell should be used to process our script.
 --> Every Script file first line we should specify below line
         #!/bin/bash 
     indicates that the Bash shell interpreter located at /bin/bash should be used to execute the script.
+
+# 
 
 
 
