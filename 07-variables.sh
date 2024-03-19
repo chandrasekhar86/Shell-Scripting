@@ -1,4 +1,5 @@
 #!bin/bash
+echo please enter todays day
 read today
 
 if($today=="Sunday")
