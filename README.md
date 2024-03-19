@@ -16,7 +16,6 @@
 
 # Display Default Shell of Linux
     $ echo $SHELL
-    ![alt text](image-1.png)
 
 # Most commonly used Shell is "Bash Shell"
 
