@@ -2,7 +2,7 @@
 echo please enter todays day
 read today
 
-if($(today)=="Sunday")
+if[ $(today)=="Sunday" ]
 then
     echo "Today is Holiday
 else
