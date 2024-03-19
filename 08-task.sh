@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Check whether root user or not
-id
-if [ $id -nq 0 ]
+USER=$(id -u)
+if [ $USER -ne 0 ]
 then 
     echo "execute command as root user"
 else
