@@ -26,7 +26,10 @@
         #!/bin/bash 
     indicates that the Bash shell interpreter located at /bin/bash should be used to execute the script.
 
-# 
+# Write Shell Script by using below scenarios
+    1. check root user or not
+    2. if not root user, exit the program and inform user to run with sudo access
+    3. if root user install mysql
 
 
 
