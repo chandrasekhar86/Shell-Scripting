@@ -50,5 +50,30 @@ FUNCTION_NAME () {
 here you write your statements, and call this function wherever required.
 }
 
-# 
+--> You need to give input, then function will give output
+
+# Redirectors
+> --> it will only redirect success output
+
+1 --> success
+2 --> failure
+& --> both success and failure
+
+ls -1 > ls.log
+ls -1 1> ls.log
+lsss -l 2> ls.log
+ls -1 &>ls.log
+
+> -- > it will remove previous content, and adds new content
+>> -- > it will not remove, it will append
+
+# Special Variables
+        VAR1=$1
+        VAR2=$2
+        echo "script name: $0"
+        echo "variable 1: $VAR1"
+        echo "all vars: $@"
+        echo "number of vars: $#"
+
+
 
