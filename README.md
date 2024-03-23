@@ -3,10 +3,11 @@
 -->Shell will allows users to interact with the operating system by executing the commands.
 -->There are various types of shells, including:
     1. Bourne Shell (sh)
-    2. Bash (Bourne Again Shell
+    2. Bash (Bourne Again Shell)
     3. ZShell
     4. CShell
     5. PowerShell
+    6. KShell
 
 # What is Shell Scripting
 --> Shell scripting refers to writing scripts or programs that are interpreted by a shell to automate tasks or perform various operations on a computer system.
@@ -15,7 +16,7 @@
     $ cat /etc/shells
 
 # Display Default Shell of Linux
-    $ echo $SHELL
+    $ echo $SHELL or $ echo $0
 
 # Most commonly used Shell is "Bash Shell"
 
@@ -38,7 +39,7 @@
 
 # exit status
     $? -- > it will store the previous command status
-    $? --> 0 then previous commandlis success
+    $? --> 0 then previous command is success
     $? --> not 0 previous command is failure (1-127)
 
 # Functions
