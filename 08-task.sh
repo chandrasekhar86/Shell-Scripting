@@ -5,6 +5,7 @@ userid=$(id -u)
 if [ $userid -ne 0 ]
 then
     echo "execute command as root user"
+    exit 1
 else
-    sh sudo yum install mysql -y
+    sudo yum install mysql -y
 fi
