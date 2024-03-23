@@ -1,9 +1,9 @@
 #!/bin/bash
 # our program goal is to install mysql and git
 
-DATE = $(date +%F)
-SCRIPT_FILE = $0
-LOG_FILE = /tmp/$SCRIPT_FILE-$DATE.log
+DATE=$(date +%F)
+SCRIPT_FILE=$0
+LOG_FILE=/tmp/$SCRIPT_FILE-$DATE.log
 USERID=$(id -u)
 
 VALIDATE (){
